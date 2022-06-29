@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Registration form</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="register">
+        <h2>Register here</h2>
+        <form id="register" method="post">
+          <label>First Name : </label>
+          <br /><br />
+          <input
+            type="text"
+            name="fname"
+            id="name"
+            placeholder="Enter your first name"
+          />
+
+          <label>Last Name : </label>
+          <br /><br />
+          <input
+            type="text"
+            name="lname"
+            id="name"
+            placeholder="Enter your last name"
+          />
+          <br /><br />
+          <label>Your Age : </label>
+          <br />
+          <input
+            type="number"
+            name="age"
+            id="name"
+            placeholder="Enter your age"
+          />
+          <br /><br />
+          <label>Email : </label>
+          <br />
+          <input
+            type="email"
+            name="email"
+            id="name"
+            placeholder="Enter your valid email"
+          />
+          <br /><br />
+          <label>Gender : </label>
+          <br />
+          &nbsp;&nbsp;&nbsp;
+          <input type="radio" name="gender" id="male" />
+          &nbsp;
+          <span id="male">Male</span>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" name="gender" id="female" />
+          &nbsp;
+          <span id="female">Female</span>
+          <br /><br />
+          <label> Known Language : </label>
+          <br />
+          &nbsp;&nbsp;&nbsp;
+          <input type="checkbox" name="lang" id="Bangla" />
+          &nbsp;
+          <span id="Bangla">Bangla</span>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="checkbox" name="lang" id="English" />
+          &nbsp;
+          <span id="English">English</span>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="checkbox" name="lang" id="Deutcsh" />
+          &nbsp;
+          <span id="Deutcsh">Deutcsh</span>
+          <br /><br />
+          <input type="submit" value="Submit" name="submit" id="submit" />
+        </form>
+      </div>
+      <!-- end register -->
+    </div>
+    <!-- end main -->
+  </body>
+</html>
