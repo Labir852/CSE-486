@@ -298,7 +298,7 @@
       <!-- Pricing closes -->
       <!-- Alert opens -->
       <h1 class="feat_name">Alert</h1>
-      <div>
+      <>
         <div class="alert btn-primary" role="alert">
           This is a primary alert—check it out!
         </div>
@@ -325,11 +325,69 @@
         </div>
         <p class="feat_name">With ICON + SHADOW</p>
         <div class="alert btn-info" role="alert">
-          
+          <i class="fa-solid fa-circle-info"></i>
           This is a info alert—check it out!
+        </div>
+        <p class="feat_name">DISMISSING</p>
+        <div class="alert btn-primary alert-dismissible fade show" role="alert">
+          <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="alert btn-secondary alert-dismissible fade show" role="alert">
+          <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
         </div>
       </div>
       <!-- alert closes -->
+      <!-- badge starts -->
+      <p class="feat_name">Badges</p>
+      <div class="badges">
+        <button type="button" class="btn btn-primary btnBadge">
+          Notifications <span class="badge badge-light">4</span>
+        </button>
+        <button type="button" class="btn btn-secondary btnBadge">
+          Notifications <span class="badge badge-light">4</span>
+        </button>
+        <button type="button" class="btn btn-danger btnBadge">
+          Notifications <span class="badge badge-light">4</span>
+        </button>
+        <button type="button" class="btn btn-info btnBadge">
+          Notifications <span class="badge badge-light">4</span>
+        </button>
+        <button type="button" class="btn btn-success btnBadge">
+          Notifications <span class="badge badge-light">4</span>
+        </button>
+        <button type="button" class="btn btn-dark btnBadge">
+          Notifications <span class="badge badge-light">4</span>
+        </button>
+      </div>
+      <!-- contextual badge -->
+      <div class="badges">
+        <span class="badge badge-primary">Primary</span>
+        <span class="badge badge-secondary">Secondary</span>
+        <span class="badge badge-success">Success</span>
+        <span class="badge badge-danger">Danger</span>
+        <span class="badge badge-warning">Warning</span>
+        <span class="badge badge-info">Info</span>
+        <span class="badge badge-light">Light</span>
+        <span class="badge badge-dark">Dark</span>
+      </div>
+      <!-- pill badge -->
+      <div class="badges">
+        <span class="badge badge-pill badge-primary">Primary</span>
+        <span class="badge badge-pill badge-secondary">Secondary</span>
+        <span class="badge badge-pill badge-success">Success</span>
+        <span class="badge badge-pill badge-danger">Danger</span>
+        <span class="badge badge-pill badge-warning">Warning</span>
+        <span class="badge badge-pill badge-info">Info</span>
+        <span class="badge badge-pill badge-light">Light</span>
+        <span class="badge badge-pill badge-dark">Dark</span>
+      </div>
+      <!-- badge ends -->
   </div>
 
 
@@ -341,6 +399,8 @@
         backSpeed: 150,
         loop: true,
       });
+
+      $(".alert").alert('close')
     </script>
   </body>
 </html>
