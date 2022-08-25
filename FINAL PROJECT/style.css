@@ -79,7 +79,7 @@
   font-size: xx-large;
   margin-top: 10px;
 }
-.btn {
+.btnrad {
   border-radius: 20px;
 }
 .Ctitle {
@@ -233,4 +233,38 @@
   margin: 10px;
   height: 200px;
   width: 200px;
+}
+.priceCard
+{
+  height: 400px;
+  width: 30%;
+  padding: 20px;
+}
+.Pricing {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.bg-lightgreen
+{
+  background-color: greenyellow;
+}
+.pCard{
+  height: 120px;
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+}
+.btnPcard
+{
+  /* margin: 20px; */
+  width: 100%;
+  margin-top: 20px;
+  margin-right: 50%;
+  height: 50px;
+}
+.alert
+{
+  width: 80%;
+  margin: 2% 10% 2% 10%;
 }
