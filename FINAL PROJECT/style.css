@@ -115,6 +115,40 @@
   height: 40px;
   padding-top: 10px;
   width: 40px;
+  text-align: center;
+  margin: 10px;
+}
+.fno {
+  border-radius: 50%;
+  height: 40px;
+  padding-top: 10px;
+  width: 40px;
+  text-align: center;
+  margin: 10px;
+}
+.fgear {
+  color: rgb(33, 114, 235);
+  border: 1px solid rgb(33, 114, 235);
+}
+.fclock {
+  color: orange;
+  border: 1px solid orange;
+}
+.fdownload {
+  color: green;
+  border: 1px solid green;
+}
+.flock {
+  color: red;
+  border: 1px solid red;
+}
+.fbookmark {
+  color: grey;
+  border: 1px solid grey;
+}
+.fcamera {
+  color: grey;
+  border: 1px solid #35d59c;
 }
 .brands {
   display: flex;
@@ -127,9 +161,9 @@
 .feat_name {
   font-weight: bolder;
   font-size: 42px;
-  margin-bottom: 25px;
   text-align: center;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 .feat_div {
   margin-top: 50px;
@@ -159,4 +193,44 @@
   text-align: center;
   padding: 20px;
   box-shadow: 5px 5px 5px 5px #c0b8b8;
+}
+.social {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+}
+.iconsOptions {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.thumbnail {
+  border-radius: 50%;
+  margin: 30px;
+  width: 60%;
+}
+.lg {
+  height: 150px;
+  width: 150px;
+}
+.sm {
+  height: 38px;
+  width: 38px;
+  top: 50%;
+  transform: translateX(50%) translateY(100%);
+}
+.md {
+  height: 75px;
+  width: 75px;
+  transform: translateX(40%) translateY(50%);
+}
+.avatar {
+  display: flex;
+  justify-content: center;
+}
+.ava1 {
+  margin: 10px;
+  height: 200px;
+  width: 200px;
 }
