@@ -50,10 +50,41 @@
 }
 .bg-indigo {
   background-color: indigo;
+  color: white;
 }
-
+.btn-outline-orange {
+  border: 1px solid orangered;
+  color: orangered;
+}
+.btn-outline-orange:hover {
+  background-color: orangered;
+  color: white;
+}
+.btn-outline-teal {
+  border: 1px solid teal;
+  color: teal;
+}
+.btn-outline-teal:hover {
+  background-color: teal;
+  color: white;
+}
+.btn-outline-indigo {
+  border: 1px solid indigo;
+  color: indigo;
+}
+.btn-outline-indigo:hover {
+  background-color: indigo;
+  color: white;
+}
+.btn-outline-light:hover {
+  border: 1px solid black;
+}
 .bg-teal {
   background-color: teal;
+  color: white;
+}
+.btn-pill {
+  border-radius: 30px;
 }
 .cards {
   margin-bottom: 100px;
@@ -234,8 +265,7 @@
   height: 200px;
   width: 200px;
 }
-.priceCard
-{
+.priceCard {
   height: 400px;
   width: 30%;
   padding: 20px;
@@ -245,35 +275,30 @@
   justify-content: space-around;
   margin-bottom: 50px;
 }
-.bg-lightgreen
-{
+.bg-lightgreen {
   background-color: greenyellow;
 }
-.pCard{
+.pCard {
   height: 120px;
   text-align: center;
   font-size: larger;
   font-weight: bolder;
 }
-.btnPcard
-{
+.btnPcard {
   /* margin: 20px; */
   width: 100%;
   margin-top: 20px;
   margin-right: 50%;
   height: 50px;
 }
-.alert
-{
+.alert {
   width: 80%;
   margin: 2% 10% 2% 10%;
 }
-.fa-circle-info
-{
+.fa-circle-info {
   font-size: larger;
 }
-.badges
-{
+.badges {
   margin-bottom: 50px;
-  margin-left: 10% ;
+  margin-left: 10%;
 }
