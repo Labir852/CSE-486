@@ -302,3 +302,123 @@
   margin-bottom: 50px;
   margin-left: 10%;
 }
+.buttonDiv {
+  margin-left: 10%;
+  margin-bottom: 100px;
+}
+.firstLayer,
+.buttonSolid,
+.buttonOutlined {
+  margin-bottom: 50px;
+}
+.CarouselDiv {
+  height: 40%;
+  width: 90%;
+  padding: 50px;
+  margin-left: 7%;
+}
+.dropdown-toggle {
+  margin: 10px;
+}
+
+.dropDownDiv {
+  margin-left: 10%;
+  margin-bottom: 50px;
+}
+.Row {
+  display: flex;
+  justify-content: space-between;
+}
+input[type="text"],
+input[type="datetime-local"] {
+  width: 500px;
+  margin-right: 20px;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid rgba(0.45, 0.45, 0.46, 0.5);
+}
+
+.forms1 {
+  margin: auto;
+  width: 60%;
+  border: 5px solid #ffff00;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+input.empty {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+}
+
+.first_column .input-group .input-group-text {
+  background-color: white !important;
+  margin-top: 10px !important;
+  border: none !important;
+}
+.outlinedName input {
+  border-radius: 50px;
+}
+.outlinedName .input-group input {
+  border: none !important;
+  border-bottom: 1px solid rgba(0.45, 0.45, 0.46, 0.5) !important;
+  border-radius: 0px !important;
+  outline: none !important;
+  width: 455px;
+}
+.outlinedName .input-group span {
+  background-color: white !important;
+  border: none !important;
+  padding-top: 10px !important;
+}
+.first_column input {
+  border-radius: 7px;
+}
+
+label {
+  font-size: 20px;
+}
+input:focus {
+  border: none;
+  outline: 1px solid #0d6efd;
+}
+.NameRow {
+  margin-top: 50px;
+}
+.input-group-shadow textarea {
+  margin-top: 30px;
+  width: 510px !important;
+}
+.tarea {
+  width: 510px;
+}
+.input-group-shadow {
+  box-shadow: 2px 2px 2px 2px #888888;
+}
+.outlinedName .input-group-shadow input {
+  border: none !important;
+}
+.outlinedName .input-group-shadow input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  outline: none !important;
+}
+.input_shadow {
+  background-color: rgb(170, 132, 137);
+  padding: 20px;
+  width: 560px;
+}
+.Modals {
+  margin-top: 50px;
+}
+.Modalsdiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.Modalsdiv button {
+  margin: 20px;
+}
