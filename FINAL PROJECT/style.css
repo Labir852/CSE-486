@@ -470,3 +470,16 @@ nav {
 .PopoverDiv button {
   margin: 20px;
 }
+.checkradiotoggle
+{
+  display: flex;
+  justify-content: center;
+}
+.checks
+{
+  margin: 30px;
+}
+.progress
+{
+  margin-bottom: 30px;
+}
